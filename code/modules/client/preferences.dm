@@ -315,7 +315,7 @@ datum/preferences
 	if(href_list["save"])
 		save_preferences()
 		save_character()
-		make_existing()
+		// make_existing()
 	else if(href_list["reload"])
 		load_preferences()
 		load_character()

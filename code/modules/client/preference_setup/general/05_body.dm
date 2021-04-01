@@ -983,7 +983,7 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 				dat += "</br><b>Unheard of on human stations.</b>"
 			else
 				dat += "</br><b>May be present on human stations.</b>"
-	if(current_species.spawn_flags & SPECIES_IS_WHITELISTED)
+	if(current_species.spawn_flags & SPECIES_CAN_JOIN)
 		dat += "</br><b>Whitelist restricted.</b>"
 	if(!current_species.has_organ[O_HEART])
 		dat += "</br><b>Does not have a circulatory system.</b>"

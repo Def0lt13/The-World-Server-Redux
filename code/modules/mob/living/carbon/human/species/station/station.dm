@@ -35,6 +35,44 @@
 		O_INTESTINE =	/obj/item/organ/internal/intestine
 		)
 
+/datum/species/vulpkanin
+	name = SPECIES_VULPKANIN
+	name_plural = "Vulpkanin"
+	icobase = 'icons/mob/human_races/r_vulpkanin.dmi'
+	deform = 'icons/mob/human_races/r_vulpkanin.dmi'
+//	path = /mob/living/carbon/human/vulpkanin
+//	default_language = "Sol Common"
+	secondary_langs = list(LANGUAGE_CANILUNZT)
+	name_language = LANGUAGE_CANILUNZT
+	primitive_form = "Wolpin"
+	tail = "vulptail"
+	tail_animation = 'icons/mob/species/vulpkanin/tail.dmi' // probably need more than just one of each, but w/e
+	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/claws, /datum/unarmed_attack/bite/sharp)
+	darksight = 5 //worse than cats, but better than lizards. -- Poojawa
+//	gluttonous = 1
+	num_alternate_languages = 3
+
+	inherent_verbs = list(/mob/living/proc/shred_limb, /mob/living/carbon/human/proc/lick_wounds)
+
+	blurb = "Vulpkanin are a species of sharp-witted canine-pideds residing on the planet Altam just barely within the \
+	dual-star Vazzend system. Their politically de-centralized society and independent natures have led them to become a species and \
+	culture both feared and respected for their scientific breakthroughs. Discovery, loyalty, and utilitarianism dominates their lifestyles \
+	to the degree it can cause conflict with more rigorous and strict authorities. They speak a guttural language known as 'Canilunzt' \
+    which has a heavy emphasis on utilizing tail positioning and ear twitches to communicate intent."
+
+
+	primitive_form = "Wolpin"
+
+	spawn_flags = SPECIES_CAN_JOIN
+	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
+
+	flesh_color = "#966464"
+	base_color = "#B43214"
+
+	min_age = 18
+	max_age = 80
+
+
 /datum/species/human/get_bodytype(var/mob/living/carbon/human/H)
 	return SPECIES_HUMAN
 
@@ -65,7 +103,7 @@
 	species_language = LANGUAGE_UNATHI
 	health_hud_intensity = 2.5
 
-	min_age = 32
+	min_age = 32 // ya kakal
 	max_age = 260
 
 	blurb = "A heavily reptillian species, Unathi hail from the \
@@ -74,7 +112,7 @@
 	else, frequently even their own lives. They prefer warmer temperatures than most species and \
 	their native tongue is a heavy hissing laungage called Sinta'Unathi."
 
-	cold_level_1 = 280 //Default 260 - Lower is better
+	cold_level_1 = 279 //Default 260 - Lower is better
 	cold_level_2 = 220 //Default 200
 	cold_level_3 = 130 //Default 120
 
@@ -94,7 +132,7 @@
 
 	body_temperature = T20C
 
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	flesh_color = "#34AF10"
@@ -198,7 +236,7 @@
 
 	primitive_form = SPECIES_MONKEY_TAJ
 
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	flesh_color = "#AFA59E"
@@ -263,7 +301,7 @@
 
 	ambiguous_genders = TRUE
 
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR
 
 	flesh_color = "#8CD7A3"
@@ -381,7 +419,7 @@
 	body_temperature = T0C + 15		//make the plant people have a bit lower body temperature, why not
 
 	flags = NO_SCAN | IS_PLANT | NO_PAIN | NO_SLIP | NO_MINOR_CUT
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN
 
 	blood_color = "#004400"
 	flesh_color = "#907E4A"
