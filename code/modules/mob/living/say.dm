@@ -167,11 +167,11 @@ proc/get_radio_key_from_channel(var/channel)
 		if("^") return custom_emote(1, copytext_char(message,2))
 
 	//If there's no punctuation, add punctuation.
-	var/p_ending = copytext_char(message, length(message))
-	var/p_message = "[message]."
-	if(!(p_ending in list(".","?","!")))
-		if(message)
-			message = p_message
+	//var/p_ending = copytext_char(message, length(message))
+	//var/p_message = "[message]."
+	//if(!(p_ending in list(".","?","!")))
+	//	if(message)
+	//		message = p_message
 
 	//Parse the radio code and consume it
 	if (message_mode)

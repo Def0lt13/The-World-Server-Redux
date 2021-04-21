@@ -221,7 +221,7 @@
 					if(!login_business)
 						alert("No business found with that name, it may have been deleted - contact an administrator.")
 						return
-					var/access_password = sanitize(copytext(input(usr, "Please provide the password. (Max 40 letters)", "Business Management Utility")  as text,1,40))
+					var/access_password = sanitize(copytext_char(input(usr, "Please provide the password. (Max 40 letters)", "Business Management Utility")  as text,1,40))
 
 					if(!login_business || (access_password != login_business.access_password))
 						alert("Incorrect password, please try again.")
