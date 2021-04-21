@@ -33,10 +33,6 @@
 	h_style = "Teshari Default"
 	..(new_loc, SPECIES_TESHARI)
 
-
-	/mob/living/carbon/human/vulpkanin/New(var/new_loc)
-	..(new_loc, "Vulpkanin")
-
 /mob/living/carbon/human/promethean/New(var/new_loc)
 	..(new_loc, SPECIES_PROMETHEAN)
 

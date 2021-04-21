@@ -270,7 +270,7 @@ datum/preferences
 		close_load_dialog(user)
 		return
 
-	var/dat = "<html><body><center>"
+	var/dat = "<html><meta charset=\"UTF-8\"><body><center>"
 
 	if(path)
 		dat += "Slot - "

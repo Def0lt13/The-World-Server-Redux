@@ -256,7 +256,7 @@ SUBSYSTEM_DEF(vote)
 		if(C.holder.rights & R_ADMIN)
 			admin = TRUE
 
-	. = "<html><head><title>Voting Panel</title></head><body>"
+	. = "<html><meta charset=\"UTF-8\"><head><title>Voting Panel</title></head><body>"
 	if(mode)
 		if(question)
 			. += "<h2>Vote: '[question]'</h2>"
