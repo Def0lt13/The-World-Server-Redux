@@ -234,7 +234,7 @@
 	if(alert)
 		for(var/client/X in admins)
 			if(X.is_preference_enabled(/datum/client_preference/holder/play_adminhelp_ping))
-				X << 'sound/voice/bcriminal.ogg'
+				X << 'sound/voice/Amogus.mp3'
 
 
 	send_resources()
