@@ -67,6 +67,7 @@ datum/track/New(var/title_name, var/audio)
 		new/datum/track("The Rebel Path", 'sound/music/disco/The Rebel Path.ogg'),
 		new/datum/track("Yacht Song", 'sound/music/disco/Yacht Song.ogg'),
 
+
 	)
 
 	// Only visible if hacked

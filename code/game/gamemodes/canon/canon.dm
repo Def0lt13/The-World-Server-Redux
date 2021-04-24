@@ -8,8 +8,8 @@
 	Conflict is allowed if it is well roleplayed and flows well into the story and doesn't become too chaotic."
 	votable = TRUE
 
-	allow_late_antag = TRUE
-	show_antag_print = TRUE // antags can be late added
+	allow_late_antag = FALSE
+	show_antag_print = FALSE // antags can be late added
 
 
 /datum/game_mode/canon/noncanon

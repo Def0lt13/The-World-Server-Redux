@@ -22,7 +22,6 @@
 
 
 
-
 /obj/item/weapon/newspaper/attack_self(mob/user)
 	var/dat
 

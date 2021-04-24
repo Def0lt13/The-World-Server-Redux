@@ -68,7 +68,7 @@ SUBSYSTEM_DEF(elections)
 
 /datum/controller/subsystem/elections/proc/is_election_day(day)
 	switch(day)
-		if(28)
+		if(26)
 			return TRUE
 
 
