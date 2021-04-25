@@ -124,3 +124,29 @@
 /area/lots/farm/farm_lot_one
 	name = "Farm Lot 1"
 	lot_id = "farmlot1"
+
+
+
+/area/lots/kommunalka/kommunalka_lot_one
+	name = "Kommunalka Lot 1"
+	lot_id = "komlot1"
+
+
+
+/area/lots/kommunalka/kommunalka_lot_two
+	name = "Kommunalka Lot 2"
+	lot_id = "komlot2"
+
+
+/area/lots/kommunalka/kommunalka_lot_three
+	name = "Kommunalka Lot 3"
+	lot_id = "komlot3"
+
+
+/area/lots/kommunalka/kommunalka_lot_four
+	name = "Kommunalka Lot 4"
+	lot_id = "komlot4"
+
+/area/lots/kommunalka/kommunalka_lot_five
+	name = "Kommunalka Lot 5"
+	lot_id = "komlot5"

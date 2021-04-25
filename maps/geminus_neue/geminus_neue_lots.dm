@@ -217,3 +217,69 @@
 	name = "Farmlot 1"
 	id = "farmlot1"
 	desc = "A farmlot that is located next to the park, it has facilities provided for agricultural supply."
+
+
+// коммуналочные лоты
+
+
+/datum/lot/kommunalka1
+	name = "Kommunalka 1"
+	id = "Kom1"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka2
+	name = "Kommunalka 2"
+	id = "Kom2"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka3
+	name = "Kommunalka 3"
+	id = "Kom3"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka4
+	name = "Kommunalka 4"
+	id = "Kom4"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka5
+	name = "Kommunalka 5"
+	id = "Kom5"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+
+/datum/lot/kommunalka6
+	name = "Kommunalka 6"
+	id = "Kom6"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka7
+	name = "Kommunalka 7"
+	id = "Kom7"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka8
+	name = "Kommunalka 8"
+	id = "Kom8"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka9
+	name = "Kommunalka 9"
+	id = "Kom9"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
+/datum/lot/kommunalka10
+	name = "Kommunalka 10"
+	id = "Kom10"
+	price = 1125
+	desc = "This is Russian based style of buildings, mostly used in Saint-Petersburg, of course in future. Some regular place 3x3 room, but still comfort and have an feelings of coziness."
+
