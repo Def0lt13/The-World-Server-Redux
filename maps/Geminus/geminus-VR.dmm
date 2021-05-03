@@ -1,6 +1,5 @@
 "a" = (/turf/unsimulated/wall/planetary/normal,/area/planets/Geminus/outdoor/vr/forest)
 "b" = (/turf/simulated/mineral/impassable,/area/planets/Geminus/outdoor/vr/forest)
-"c" = (/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "d" = (/obj/structure/flora/tree/dead,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "e" = (/obj/structure/flora/tree/jungle_small,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "f" = (/obj/structure/flora/grass/brown,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
@@ -11,7 +10,7 @@
 "k" = (/obj/structure/flora/rock,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "l" = (/obj/structure/flora/grass/green,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "m" = (/obj/structure/loot_pile/VR/weapon,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
-"n" = (/mob/living/simple_animal/hostile/statue{banishable = 1; view_range = 15},/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
+"n" = (/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "o" = (/obj/structure/flora/grass/both,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "p" = (/obj/effect/landmark/virtual_reality{name = "Bosnian Caves: 2324 - Remastered"},/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
 "q" = (/obj/structure/loot_pile/VR/firstaid,/obj/structure/table/alien,/turf/simulated/floor/snow,/area/planets/Geminus/outdoor/vr/forest)
@@ -67,36 +66,36 @@ suuuFFFFFFFFFFuuuuuuyyyyyyyyyyyyyyxxxxxuuuuus
 suuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuus
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
-abbbbbbbbbbbbbbbccdccccccecccccfcccbbbbbbbbba
-abcccdbbbbbbbbccccccccccccccccccccccccdgcbbba
-abhcicbbbbbbbccccccccbbbbbbbbccccccccccccbbba
-abbbcfcbbbbbbccjcfbbbbbbbbbbbbbbbbbckccchcbba
-abbbbcccbbbccccccbbbbbbbbbcbbbbbbbbbbccjccbba
-abbbbbccckbbbccccbbccccccccccccccdbbbbccccbba
-abbbbbbccebbbcclbbccccccbbblccccccbbbmcfccbba
-abbbbbbccbbbccccbbccjcbbbbbbbbbbccccccccccbba
-abbbbbbccbbbccccbbccccbbbbbbbbbbbcccccceccbba
-abbbbbbccbbbkccbbbccccccbbbbbbbbbbbbbcccccbba
-abbbbccccbbcccebbbbbbccccbbbbbcbbbbbbbbbccdba
-abbbdcccfccccccbbbbbbbbcccccccckbbbbbbbbcfcba
-abbbccbbbbbbbcccbbbbbbbbbbbbbccccfccbbbbcccba
-abbbcccbbbbbbccccbbbbbbbbbbbbbbbccccbbbccccba
-abbbccbbbbbccccccccchcbbbcccbbbbbbbcbbbbcccba
-abbbccbbbcccccbbcccccccccccccccdbbbcchbbccbba
-abbcccbbbccfccbbbbbcccccccccjcccbbbccfccccbba
-abbckbbbbcccccccdbbbbbbbbccccccccbbbbccldcbba
-abbccbbbbcdcbccccbbbbbbbbbbdfccbbbbbbcceccbba
-abccfchbbccbbbbbbbbbbbbbbbbbbbbbbbbbbcccccbba
-abecmnbbbbbbbccbbbbbbbbbbbbbbbbbbcccfccccbbba
-abbccbbbbbbbbcdcccccdbbbbbbchcccccclccdcbbbba
-abbbbbbbbcdbbecclcckcccccccocccccccccccbbbbba
-abbbbbbccfcbbbbcccccccceoccccccbbccccbbbbbbba
-abbbbcdccoccbbbbbbbbccccccbbbbbbbccccbbbbbbba
-abbbcccccccckcbbbbbbcccfcbbbbbbbdoccbbbbbbbba
-abbbccccjcfccchcbbbbcccbbbbbbbceccccbbbbbbbba
-abbbecfccccccccccccocccbbbdcoccccccbbbbbbbbba
-abbbbbccccmcbbbfcccccccbbbcjcpccccbbbbbbbbbba
-abbbbbbcccbbbbbccceccbbbbcocccccbbbbbbbbbbbba
+abbbbbbbbbbbbbbbnndnnnnnnennnnnfnnnbbbbbbbbba
+abnnndbbbbbbbbnnnnnnnnnnnnnnnnnnnnnnnndgnbbba
+abhninbbbbbbbnnnnnnnnbbbbbbbbnnnnnnnnnnnnbbba
+abbbnfnbbbbbbnnjnfbbbbbbbbbbbbbbbbbnknnnhnbba
+abbbbnnnbbbnnnnnnbbbbbbbbbnbbbbbbbbbbnnjnnbba
+abbbbbnnnkbbbnnnnbbnnnnnnnnnnnnnndbbbbnnnnbba
+abbbbbbnnebbbnnlbbnnnnnnbbblnnnnnnbbbmnfnnbba
+abbbbbbnnbbbnnnnbbnnjnbbbbbbbbbbnnnnnnnnnnbba
+abbbbbbnnbbbnnnnbbnnnnbbbbbbbbbbbnnnnnnennbba
+abbbbbbnnbbbknnbbbnnnnnnbbbbbbbbbbbbbnnnnnbba
+abbbbnnnnbbnnnebbbbbbnnnnbbbbbnbbbbbbbbbnndba
+abbbdnnnfnnnnnnbbbbbbbbnnnnnnnnkbbbbbbbbnfnba
+abbbnnbbbbbbbnnnbbbbbbbbbbbbbnnnnfnnbbbbnnnba
+abbbnnnbbbbbbnnnnbbbbbbbbbbbbbbbnnnnbbbnnnnba
+abbbnnbbbbbnnnnnnnnnhnbbbnnnbbbbbbbnbbbbnnnba
+abbbnnbbbnnnnnbbnnnnnnnnnnnnnnndbbbnnhbbnnbba
+abbnnnbbbnnfnnbbbbbnnnnnnnnnjnnnbbbnnfnnnnbba
+abbnkbbbbnnnnnnndbbbbbbbbnnnnnnnnbbbbnnldnbba
+abbnnbbbbndnbnnnnbbbbbbbbbbdfnnbbbbbbnnennbba
+abnnfnhbbnnbbbbbbbbbbbbbbbbbbbbbbbbbbnnnnnbba
+abenmnbbbbbbbnnbbbbbbbbbbbbbbbbbbnnnfnnnnbbba
+abbnnbbbbbbbbndnnnnndbbbbbbnhnnnnnnlnndnbbbba
+abbbbbbbbndbbennlnnknnnnnnnonnnnnnnnnnnbbbbba
+abbbbbbnnfnbbbbnnnnnnnneonnnnnnbbnnnnbbbbbbba
+abbbbndnnonnbbbbbbbbnnnnnnbbbbbbbnnnnbbbbbbba
+abbbnnnnnnnnknbbbbbbnnnfnbbbbbbbdonnbbbbbbbba
+abbbnnnnjnfnnnhnbbbbnnnbbbbbbbnennnnbbbbbbbba
+abbbenfnnnnnnnnnnnnonnnbbbdnonnnnnnbbbbbbbbba
+abbbbbnnnnmnbbbfnnnnnnnbbbnjnpnnnnbbbbbbbbbba
+abbbbbbnnnbbbbbnnnennbbbbnonnnnnbbbbbbbbbbbba
 abbbbbbbbbbbbbbbbbbbbbbbbbqrtbbbbbbbbbbbbbbba
 abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

@@ -36,7 +36,7 @@
 
 	allowed_spawns = list("City Arrivals Airbus", "Cryogenic Storage", "Prison")
 
-	planet_datums_to_make = list(/datum/planet/pollux)
+
 
 	usable_email_tlds = list("freemail.net", "ntmail.nt", "interpollux.org", "solnet.org", "vetralife.nt", "andromedian.org")
 	default_law_type = /datum/ai_laws/pollux
