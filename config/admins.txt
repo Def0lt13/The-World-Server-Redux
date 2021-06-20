@@ -6,4 +6,5 @@
 ######################################################################
 
 # not_a_user - Admin
-Def0lt - Host
+Def0lt - Head Developer
+BakaZloy - Head Admin

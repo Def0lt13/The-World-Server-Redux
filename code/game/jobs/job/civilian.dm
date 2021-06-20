@@ -16,22 +16,11 @@
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	outfit_type = /decl/hierarchy/outfit/job/assistant
-	alt_titles = list(
-					"Tourist",
-					"Expat",
-					"Socialite",
-					"Investor",
-					"Traveller",
-					"Entrepreneur",
-					"Visitor" = /decl/hierarchy/outfit/job/assistant/visitor,
-					"Resident" = /decl/hierarchy/outfit/job/assistant/resident)
 
-	description = "You are a normal, average citizen. You can be many things - someone who lives in the city, an investor, a tourist, a socialite, \
-	even an aspiring businessman. You recieve a small stipend from the government to fund your living expenses until you find a job. \
-	Every civilian is important as your spending is what keeps this colony thriving. You might be better off being straight and steady if you're \
-	new to the colony instead of jumping right into crime if you want to avoid becoming a prisoner."
 
-	duties = list("Get to know people in the city", "Be a good, moral citizen and gain a good reputation", "Or not")
+	description = "Temporary there no description, go fuck yourself."
+
+	duties = list("Resist", "Survive", "Die")
 
 /datum/job/assistant/get_access()
 	if(config.assistant_maint)

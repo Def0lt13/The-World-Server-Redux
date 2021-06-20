@@ -23,10 +23,10 @@
 	name = "white dress shoes"
 	path = /obj/item/clothing/shoes/dress/white
 
-/datum/category_item/crafting/sewing_machine/shoes/skater
-	name = "skater shoes"
-	path = /datum/gear/shoes/skater
-	force_matter = list("leather" = 1300, "cotton" = 200)
+///datum/category_item/crafting/sewing_machine/shoes/skater
+//	name = "skater shoes"
+//	path = /datum/gear/shoes/skater
+//	force_matter = list("leather" = 1300, "cotton" = 200)
 
 /datum/category_item/crafting/sewing_machine/shoes/athletic
 	name = "athletic shoes"
@@ -118,10 +118,10 @@
 	name = "toeless workboots"
 	path = /obj/item/clothing/shoes/boots/workboots/toeless
 
-/datum/category_item/crafting/sewing_machine/accessories/shoes/bunny_slippers
-	name = "bunny slippers"
-	path = /datum/gear/shoes/slippers
-	force_matter = list("wool" = 900)
+//datum/category_item/crafting/sewing_machine/accessories/shoes/bunny_slippers
+//	name = "bunny slippers"
+//	path = /datum/gear/shoes/slippers
+//	force_matter = list("wool" = 900)
 
 
 // basic shoes
@@ -190,10 +190,10 @@
 	path = /obj/item/clothing/shoes/flats/brown
 
 // hitops
-/datum/category_item/crafting/sewing_machine/shoes/hitop
-	name = "hitop shoes"
-	path = /datum/gear/shoes/hitops
-	force_matter = list("cotton" = 300, "leather" = 200)
+///datum/category_item/crafting/sewing_machine/shoes/hitop
+//	name = "hitop shoes"
+//	path = /datum/gear/shoes/hitops
+//	force_matter = list("cotton" = 300, "leather" = 200)
 
 /datum/category_item/crafting/sewing_machine/shoes/hitop/red
 	name = "hitop shoes (red)"

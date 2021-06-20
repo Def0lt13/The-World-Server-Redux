@@ -1,3 +1,4 @@
+
 /datum/game_mode/canon
 	name = "Canon"
 	config_tag = "canon"
